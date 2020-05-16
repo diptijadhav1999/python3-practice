@@ -1,0 +1,29 @@
+# filepath is already given to you
+filepath = text_file
+
+# Code starts here
+# open file in read mode
+file=open(filepath,'r')
+# iterate over the file object
+for line in file.readlines(): 
+    print(line)
+# close the file.close()
+file.close()
+# open file in write mode
+file = open(filepath, 'a+')
+# write to the file
+file.write("Successfully written to the text file")
+
+# close the file
+file.close()
+# Code ends here
+
+# Caution : do not delete this code
+file = open(filepath,'r')
+lines=[]
+for line in file.readlines():
+    lines.append(line)
+file.close()
+
+RESULT
+Congratulations you have successfully opened the file

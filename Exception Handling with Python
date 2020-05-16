@@ -1,0 +1,16 @@
+# take input
+num1, num2 = 5, 0
+
+# Code starts here
+try:
+   quotient=num1/num2
+   message = "Quotient is" + ' ' + str(quotient)
+except:
+   message = "Cannot divide by zero"
+# try except block
+print(message)
+
+RESULT
+The value of num1 should be 5.
+The value of num2 should be 0.
+The value of message should be "Cannot divide by zero".

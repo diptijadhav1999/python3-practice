@@ -1,0 +1,12 @@
+num=5
+condition=None
+if (num>0):
+   condition="positive"
+elif (num<0):
+   condition="negative"
+else:
+  condition="zero"
+print(condition)
+
+RESULT
+The variable condition should be 'positive'

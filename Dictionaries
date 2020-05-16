@@ -1,0 +1,19 @@
+# Code starts here
+# initialize dictionary
+fruits={"apple":"green","banana":"yellow","cherry":"red"}
+# change color of apple
+fruits["apple"]="red"
+# add guava
+fr={"guava":"green"}
+fruits.update(fr)
+print(fruits)
+# delete cherry
+del fruits["cherry"]
+# display fruits
+print(fruits)
+
+# Code ends here
+
+RESULT
+{'apple': 'red', 'banana': 'yellow', 'cherry': 'red', 'guava': 'green'}
+{'apple': 'red', 'banana': 'yellow', 'guava': 'green'}

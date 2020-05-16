@@ -1,0 +1,19 @@
+Code starts here
+# Assign variable names
+age=12
+name="John"
+# Check types
+print(type(age))
+print(type(name))
+
+# print out types
+type(age)==int
+print(age)
+type(name)==str
+print(name)
+
+RESULT
+<class 'int'>
+<class 'str'>
+12
+John

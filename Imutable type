@@ -1,0 +1,12 @@
+#initial variable
+a = 50
+# initial memory location
+print(id(a))
+#modified variable
+a += 1
+# new memory location, is it same?
+print(id(a))
+Output
+
+94285850046496
+94285850046528

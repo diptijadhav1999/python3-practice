@@ -1,0 +1,18 @@
+# given variable
+#name = "John"
+
+# Code starts here
+x=['John','Rick']
+# check for memberships
+john='John' in x
+print(john)
+y=["Hall", "Rick"]
+hall='John' in y
+print(hall)# Display variables
+# Code ends here
+
+result
+
+The value stored in john should be True.
+The value stored in hall should be False.
+

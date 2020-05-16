@@ -1,0 +1,33 @@
+x=15
+y=4
+
+# Code starts here
+
+# addition
+addition=x+y
+print(addition)
+# subtractiom
+subtraction=x-y
+print(subtraction)
+# multiplication
+multiplication=x*y
+print(multiplication)
+# division
+division=x/y
+print(division)
+# integer division
+integer_division=x//y
+print(integer_division)
+
+# exponentiation
+exponent=x**y
+print(exponent)
+
+
+RESULT
+
+The calculated value of addition should be 19.
+The calculated value of subtraction should be 11.
+The calculated value of multiplication should be 60.
+The calculated value of division should be 3.75.
+The calculated value of integer_division should be 3.

@@ -1,0 +1,21 @@
+# Code starts here
+
+# store variable names
+P=1000
+r=10
+n=2
+
+# compound interest formula
+A=P*pow((1+r/100),n)
+
+# display compound interest
+print(A)
+
+# display interest
+interest=A-P
+print(interest)
+# Code ends here
+
+RESULT
+1210.0000000000002
+210.00000000000023

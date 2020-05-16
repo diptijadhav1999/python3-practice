@@ -1,0 +1,17 @@
+# initialize variables
+x1, y1, x2, y2, d1, d2 = 5, 5, 'Hello', 'Hello',  {'a':1, 'b':2}, {'a':1, 'b':2}
+
+# Code starts here
+x1_is_y1=id(x1) is not id(y1)
+print(x1_is_y1)
+x2_is_y2=id(x2) is not id(y2)
+print(x2_is_y2)
+d1_is_d2=id(d1) is id(d2)
+print(d1_is_d2)
+# Code ends here
+
+result
+
+The value of x1_is_y1 should be True.
+The value of x2_is_y2 should be True.
+The value of d1_is_d2 should be False.

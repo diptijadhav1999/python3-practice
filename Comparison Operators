@@ -1,0 +1,27 @@
+x=10
+y=12
+
+#Code starts here
+
+# greater than
+is_greater=(x>y)
+# lesser than
+is_less=(x<y)
+# equal tHis_greater_equal=(x>=y)
+
+# lesser than or equal to
+is_less_equal=(x<=y)
+print(is_greater)
+print(is_less)
+print(is_equal)
+print(is_greater_equal)
+print(is_less_equal)
+# Code ends here
+
+
+result
+The value of is_greater should be False.
+The value of is_less should be True.
+The value of is_equal should be False.
+The value of is_greater_equal should be False.
+The value of is_less_equal should be True.
